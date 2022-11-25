@@ -1,0 +1,199 @@
+.navbar {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background: #f4f3f0cc;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+
+
+}
+
+.logo {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+li {
+    color: #173f35;
+}
+
+.menuNav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+
+    li {
+        position: relative;
+        z-index: 2;
+        display: block;
+        letter-spacing: 0.01rem;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.25rem;
+        transition: 0.2s;
+    }
+}
+
+.dropdown>li {
+    display: flex;
+    align-items: center;
+    font-size: .8125rem;
+}
+
+
+.dropdown:hover {
+    .dropdown-nav {
+        opacity: 1;
+        transform: translateY(0);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+}
+
+
+
+// drop down for best sellers 
+.dropdown-nav {
+    opacity: 0;
+    transition: transform .3s cubic-bezier(0.88, -0.72, 0, 1), opacity .3s ease-in-out;
+    transform: translateY(-4rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    top: 6.7rem;
+    left: -12.5rem;
+    width: 82rem;
+    margin-top: 1rem !important;
+    height: 30rem;
+    background-color: white;
+    border-radius: 25px;
+    li {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+}
+
+// drop down for gift sets
+
+.dropdown-nav2 {
+    opacity: 0;
+    transition: transform .3s cubic-bezier(0.88, -0.72, 0, 1), opacity .3s ease-in-out;
+    transform: translateY(-4rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    top: 6.7rem;
+    left: -20rem;
+    width: 68rem;
+    height: 28rem;
+    background-color: white;
+    li {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+}
+
+// drop down for shop range
+
+.dropdown-nav3 {
+    opacity: 0;
+    transition: transform .3s cubic-bezier(0.88, -0.72, 0, 1), opacity .3s ease-in-out;
+    transform: translateY(-4rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    top: 6.7rem;
+    left: -33rem;
+    width: 71rem;
+    height: 28rem;
+    background-color: white;
+    li {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+}
+
+// drop down for image ( journal pic)
+
+.dropdown-nav4 {
+    opacity: 0;
+    transition: transform .3s cubic-bezier(0.88, -0.72, 0, 1), opacity .3s ease-in-out;
+    transform: translateY(-4rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    top: 6.7rem;
+    left: -37rem;
+    width: 71rem;
+    height: 28rem;
+    background-color: white;
+    li {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+/*   UNDSELINE  */
+
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #031D44;
+    padding: 60px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+    padding: 1.8rem !important;
+}
+
+
+.nav-link-fade-up:hover::before {
+    bottom: 10px;
+    opacity: 1;
+}
+
+
+.nav-link-fade-up::before {
+    width: 80%;
+    bottom: 5px;
+    opacity: 0;
+}
+
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+
+.nav-link::before {
+    transition: 400ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+}
+
+.navLine {
+    left: 56.8rem;
+    width: 1.5px !important;
+    top: 2.8rem !important;
+    background-color: #031D44;
+}

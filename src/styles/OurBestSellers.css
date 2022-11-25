@@ -1,0 +1,36 @@
+.ourBestSellersImg {
+    width: 19rem !important;
+    object-fit: contain !important;
+}
+
+.ourBestSellersMainParent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 85px;
+    position: relative;
+    width: 104vw;
+    margin-top: 3rem;
+    right: -6.5rem;
+
+}
+
+:root{
+    --p: 293 194% 8% !important;
+    --pf: 293 194% 8%  !important;
+
+}
+
+
+.zoom{
+    transition: all 360ms ease;
+}
+
+.zoom:hover{
+    transform: scale(1.08);
+}
+
+.fof{
+    font-family: Arapey, Helvetica, Arial, sans-serif;
+    
+}

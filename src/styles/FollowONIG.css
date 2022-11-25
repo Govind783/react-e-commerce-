@@ -1,0 +1,43 @@
+.alice-carousel__stage {
+    position: relative;
+    z-index: 99999999999999 !important;
+}
+
+.carouselIMg {
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    object-fit: cover;
+    border-radius: 30px !important;
+
+}
+
+.mrMl {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.igText {
+    font-family: Arapey, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.9rem;
+    letter-spacing: -.5px;
+top: 3rem;
+    left: 29rem;
+    position: relative;
+}
+
+
+
+/*.alice-carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    direction: ltr;
+    top: 4rem;
+    left: 3rem;
+    height: 52rem;
+
+}
+*/

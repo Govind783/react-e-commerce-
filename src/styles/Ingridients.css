@@ -1,0 +1,24 @@
+.ingMainParent {
+    position: relative;
+    top: 11rem;
+}
+
+.ingTextHold {
+    left: 2.5rem;
+    position: relative;
+    gap: 9rem;
+    margin-top: 1rem;
+}
+
+.ingImgHold {
+    position: relative;
+    left: 2rem;
+}
+
+.zoom2{
+    transition: all 400ms ease;
+}
+
+.zoom2:hover{
+    transform: scale(1.2);
+}

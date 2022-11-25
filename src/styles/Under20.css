@@ -1,0 +1,274 @@
+.u20Hold {
+    position: absolute;
+    top: 8rem;
+    background-color: #f4f3f0;
+
+}
+
+.u20Pic {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.w100vw {
+    width: 100vw;
+    height: 0.6rem;
+
+}
+
+.u20Heading {
+    font-family: Arapey, Helvetica, Arial, sans-serif;
+    font-weight: 00;
+    font-style: italic;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.u20HeadingHold {
+    top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.u20Desc {
+    font-size: .9375rem;
+    letter-spacing: .5px;
+    line-height: 1.45;
+
+}
+
+.u20BreadCrumbHold {
+    top: 31.5rem;
+    left: 10rem;
+
+}
+
+
+
+.filterSortHold {
+    top: 14rem;
+    position: relative;
+    left: 8rem;
+
+}
+
+/*.filterOptionsHold{
+    transition: all 400ms ease-in;
+    transform: translateY(-11rem);
+}*/
+
+
+.boxSh {
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    background-color: #f4f3f0;
+    top: 14rem;
+    width: 12rem;
+    height: 14rem;
+    justify-content: center;
+    left: 8rem;
+    z-index: 999999;
+    background: url("../assets/u20bg.png");
+    object-fit: cover;
+}
+
+.boxSh2 {
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    background-color: #f4f3f0;
+    top: 14rem;
+    background: url("../assets/u20bg.png");
+    object-fit: cover;
+    width: 12rem;
+    height: 14rem;
+    justify-content: center;
+    left: 22rem;
+    z-index: 999999;
+}
+
+.scale {
+    transition: all 350ms ease;
+}
+
+.scale:hover {
+    transform: scale(1.08);
+}
+
+.ggg {
+    top: 30rem;
+}
+
+.u20prodsHold {
+    top: 18.4rem;
+    left: -2.5rem;
+    flex-wrap: wrap;
+    width: 100rem;
+    gap: 6rem;
+
+}
+
+.u20img {
+    width: 22rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.u20Name {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+
+.knmBtn {
+    background-color: transparent !important;
+    color: black !important;
+    font-weight: 400;
+    font: normal;
+    border-radius: 0;
+    width: 17rem;
+    transition: all 200ms ease-out;
+    padding-right: 6rem;
+}
+
+
+
+
+.whi {
+    color: white !important;
+    padding-left: 5rem !important;
+    transition: all 400ms ease;
+
+}
+
+
+
+
+/*.btnLine::before{
+    content: "";
+    background-color: #000000;
+}
+
+.btnLine:hover,
+.btnLine::after{  
+    background-color: white !important;
+}*/
+
+.btnLine {
+    width: 0.7px !important;
+    left: -6rem;
+    top: 0.4rem;
+    z-index: 9999999;
+}
+
+
+
+.u20Price {
+    position: relative;
+    top: 0.7rem;
+    left: -4.4rem;
+    font-size: 18px;
+
+}
+
+.whiteColor {
+    color: white;
+}
+
+
+/* Sweep To Bottom */
+.knmBtn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.knmBtn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.knmBtn:hover,
+.knmBtn:focus,
+.knmBtn:active {
+    color: white;
+}
+
+.knmBtn:hover:before,
+.knmBtn:focus:before,
+.knmBtn:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+
+
+.u20Des {
+    width: 20rem;
+    transition: 400ms ease;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    opacity: 0;
+}
+
+
+.u20Des2 {
+    transform: translateY(-1rem);
+    position: relative;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 400ms ease;
+    opacity: 1;
+}
+
+
+.u20Js {
+    top: 19rem;
+}
+
+
+.u20Featyres {
+    top: 22rem !important;
+}
+
+.u20FeaturesHold {
+    gap: 17rem;
+    left: 10rem;
+}
+
+.u20TextFeatureHold {
+    white-space: nowrap;
+    left: 16rem;
+    top: -3.5rem;
+    gap: 12rem;
+
+}
+
+.u20footer {
+    top: 25rem;
+}

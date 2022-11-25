@@ -1,0 +1,28 @@
+.categoryText{
+    top: 2rem;
+    position: absolute;
+}
+
+.bestSellerPriceHolder{
+    position: absolute;
+    top: 5.5rem;
+    width: 8rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.giftSetMainParent{
+    position: absolute;
+    left: 2.5rem;
+}
+
+.giftHold{
+    position: relative;
+    top: 3rem;
+    left: 16rem;
+}
+
+.giftName{
+    font-size: 15px;
+    font-weight: 500;
+}

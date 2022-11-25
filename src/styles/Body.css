@@ -1,0 +1,199 @@
+.lineHold {
+    top: 3.4rem !important;
+    position: absolute !important;
+    left: 6.7rem !important;
+    gap: 6.5rem !important;
+}
+
+.lineHold2 {
+    position: absolute;
+    top: 4rem;
+    gap: 6.5rem;
+}
+
+.p {
+    width: 8rem;
+    height: 3rem;
+}
+
+.bodyContent {
+    position: absolute;
+    top: 3rem;
+    left: 18rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.hairContent {
+    position: absolute;
+    top: 9rem;
+    left: 22rem;
+    z-index: 100 !important;
+    opacity: 0;
+}
+
+.transition {
+    transform: translateY(-20px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+
+.transition2 {
+    transform: translateY(-30px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+
+.lineHeight {
+    line-height: 5rem;
+}
+
+.categoryHold {
+
+    top: 0.1rem;
+    gap: 1rem;
+    left: 9rem;
+}
+
+.bodyTypeImage {
+    width: 10rem;
+    object-fit: cover;
+}
+
+.bodyTypeIndivitual {
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    top: -25rem;
+    gap: 0rem !important;
+    left: 9rem;
+}
+
+.bodyTypeHold {
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 50rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.fs {
+    font-size: 15px;
+}
+
+.bodyTypeName {
+    position: relative;
+    top: 11rem;
+    left: -10rem;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.hairTypeCategoryONE {
+    color: #808080d6;
+    font-size: 17px;
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+    width: 51rem;
+    height: 24rem;
+}
+
+.hairTypeCategoryTWO {
+    color: #808080;
+    font-size: 19px;
+    position: absolute;
+    top: -5.3rem;
+    left: 7rem;
+    gap: 3rem;
+    white-space: nowrap;
+    font-size: 17px;
+}
+
+.hairImageHold {
+    position: relative;
+    top: -1rem;
+    left: 17.8rem;
+}
+
+.hairTextHold {
+    font-size: 16px;
+    gap: 3rem;
+    /* flex-wrap: wrap; */
+    /* width: 14rem; */
+    left: 18rem;
+
+}
+
+.transition3 {
+    transform: translateY(-30px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+
+.travelContent {
+    position: relative;
+    top: 8rem;
+    left: 15.8rem;
+
+}
+
+.px {
+    font-size: 15px;
+}
+
+.color {
+    color: #808080;
+}
+
+.newContent {
+    opacity: 0;
+}
+
+
+.transition4 {
+    transform: translateY(-30px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+
+.newTypeHold {
+    top: -13rem;
+    left: 14rem;
+}
+
+.w56rem{
+    width: 56rem;
+}
+
+
+
+
+/* UNDERLINE EFFECT  */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #031D44;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color:
+        #031D44;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

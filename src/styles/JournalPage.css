@@ -1,0 +1,72 @@
+.sjText {
+    position: absolute;
+    font-size: 1.625rem;
+    letter-spacing: 6.7px;
+    line-height: 1.92;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    width: 50rem;
+    left: 35rem;
+}
+
+.journalPageMainParent {
+    position: absolute;
+    top: 13rem;
+}
+
+.paraHold {
+    font-size: .9375rem;
+    letter-spacing: .5px;
+    line-height: 1.45;
+    width: 40rem;
+    left: 29rem;
+    top: 5rem;
+    font-weight: 400;
+}
+
+.aprilBlogHeading {
+    width: 35rem;
+    left: 30rem;
+    top: 10rem;
+
+}
+
+.hairImg {
+    width: 30rem;
+    object-fit: cover;
+    height: 29rem;
+}
+
+.hairImgHold {
+    position: relative;
+    top: 19rem;
+    left: 32rem;
+}
+
+.jhold{
+    top: 52rem;
+    width: 50rem;
+    text-align: center;
+    left: 20rem;
+    gap: 3rem;
+}
+
+.footerFeatures3{
+    top: 110rem;
+    left: 10rem;
+    gap: 17rem
+}
+
+.footerFeatures3TextHold{
+    top: 111.5rem;
+    left: 15rem;
+    gap: 12rem;
+    white-space: nowrap;
+}
+
+.jfHold{
+    width: 100vw;
+    top: 120rem;
+}
+

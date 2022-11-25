@@ -1,0 +1,52 @@
+
+.heroDescription{
+    left: 25rem;
+    width: 43rem;
+    text-align: center;
+    top: -1rem;
+}
+
+.heroPicHold{
+    margin-top: 4rem;
+    gap: 20rem;
+    position: relative;
+    left: 12.7rem;
+    width: 85vw;
+}
+
+.heroHeadingHold{
+    position: relative;
+    left: 19rem;
+    gap: 15rem;
+    top: -5rem;
+}
+
+.heroDescHold{
+    gap: 10.8rem;
+    left: 19rem;
+    top: -4rem;
+    font-size: 17px;
+}
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #d9cbcb72;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #173f35;
+    border-radius: 40px;
+  }

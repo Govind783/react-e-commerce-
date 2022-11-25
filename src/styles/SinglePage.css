@@ -1,0 +1,153 @@
+.bgGrey {
+    background-color: #f8f9fc;
+}
+
+.sinLih {
+    line-height: 3rem;
+    position: relative;
+    left: 1rem;
+    width: 100vw;
+    top: -8.9rem;
+    text-align: center;
+}
+
+
+.singlePageMainPic {
+    width: 32rem;
+    height: 35rem;
+}
+
+.singlePageMainPicHold {
+    left: 30rem;
+    top: -4rem;
+}
+
+.sideImageHold {
+    position: relative;
+    top: -39rem;
+    left: 12.5rem;
+}
+
+.bottomImgHold {
+    top: -37.5rem;
+    left: 12.5rem;
+    gap: 1rem;
+}
+
+.sp {
+    position: relative;
+    left: 7rem;
+}
+
+.namePriceSP {
+    top: -92rem;
+    left: 69rem;
+    display: flex;
+
+}
+
+.singleLinetop {
+    top: -92rem;
+    left: 64rem;
+}
+
+.starHold {
+    top: -90rem;
+    left: 71rem;
+}
+
+.l1rem {
+    line-height: 1rem;
+}
+
+.loyalty {
+    left: 66rem;
+    top: -89rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.spBtnHold {
+    top: -84.5rem;
+    left: 70rem;
+}
+
+.spAddTOCart {
+    background-color: black;
+    width: 14rem;
+    color: white;
+    height: 3rem;
+    transition: all 400ms ease;
+}
+
+.spAddTOCart:hover {
+    transform: scale(1.08);
+}
+
+.chakra-accordion {
+    width: 30vw;
+    position: relative;
+    top: -80rem;
+    left: 64rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.singleMainParentSlider {
+    position: relative;
+    top: -65rem;
+    box-shadow: 0px !important;
+
+}
+
+.singleMainParentSlider2 {
+    position: absolute !important;
+}
+
+.sec {
+    top: -70rem !important;
+}
+
+
+.jsParent {
+    position: absolute;
+    top: 187rem;
+}
+
+.spText {
+    top: 66rem;
+    left: 35rem;
+}
+
+.footerFeatures2 {
+    gap: 15rem;
+    top: 233rem;
+    left: 15rem;
+}
+
+.footerFeatures2TextHold {
+    gap: 10.5rem;
+    top: 235rem;
+    left: 20rem;
+    white-space: nowrap;
+}
+
+
+.spfooterHold {
+    top: 243rem;
+    width: 100vw;
+}
+
+.fotBg {
+    background-color: #173f35;
+    color: white;
+    border-top: none;
+}
+
+
+.cartPageFooter {
+    top: 380rem !important;
+}
+
+

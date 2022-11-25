@@ -1,13 +1,300 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden !important
+}
+
+.linHei {
+    line-height: 4rem !important;
+}
+
+.linHei2 {
+    line-height: 2rem !important;
+}
+
+.bla {
+    background-color: #252525 !important;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cg {
+    left: 37rem;
+}
+
+.hei {
+    height: 3rem;
+}
+
+.bor {
+    border: 1px solid #dddddd;
+}
+
+.cartName {
+    width: 13rem;
+    top: -14.4rem;
+    left: 31.5rem;
+    font-size: 17px !important;
+
+}
+
+.cartPrice {
+    width: 6rem;
+    top: -13rem;
+    left: 34.5rem;
+}
+
+.cartImaegHold {
+    left: 19rem;
+    top: -4rem;
+
+}
+
+.qtyhChangehold {
+    position: relative;
+    left: 31rem;
+    top: -12rem;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.cartProductsHold {
+    top: 40rem !important;
+
+}
+
+/*  chnageing  "cartProductsHold" from 3 rem to 40rem  */
+
+
+
+.totLine {
+    left: 2rem;
+    top: -5rem;
+}
+
+.totLine2 {
+    left: 2rem;
+    top: -3.5rem;
+}
+
+.middleLine {
+    top: -5rem;
+    left: 18rem;
+}
+
+.youMay {
+    top: 28.5rem !important;
+    position: relative !important;
+}
+
+.paypal-button::before {
+    content: "PAY WITH PAYPAL" !important;
+}
+
+.paypal-button::after {
+    content: "PAY WITH PAYPAL" !important;
+}
+
+.urCartItem {
+    left: 18rem;
+    top: 2rem;
+    gap: 23rem !important;
+}
+
+.lin {
+    line-height: 3rem !important;
+}
+
+.mobHold{
+    position: relative !important;
+}
+
+.cartTotalMainParent {
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    width: 28rem;
+    height: 37rem;
+    position: absolute !important;
+    left: 62rem;
+    top: 16rem;
+    border-radius: 15px;
+}
+
+/* changes "cartTotalMainParent" from relative to absolute  */
+
+.idk {
+    top: 80rem !important;
+    position: relative !important;
+}
+
+.chParent {
+
+    position: relative;
+    top: -30rem;
+    left: 0rem;
+}
+
+.calcHold {
+    top: -6.5rem;
+    left: 20rem;
+}
+
+.topLine {
+    top: 32rem;
+    left: 18rem;
+}
+
+.paypal-button-container {
+    width: 74% !important;
+}
+
+.ctActualToatal {
+    left: 10rem;
+    top: -4rem;
+}
+
+.licart {
+    line-height: 5rem;
+}
+
+.payc {
+    position: relative;
+    top: -5rem;
+    left: 11.4rem;
+    color: white;
+    z-index: 9999999999;
+    background-color: #2C2E2F;
+    width: 7rem;
+}
+
+
+.featHeadingHold {
+    top: -20rem;
+    left: 12rem;
+}
+
+.gpayHold {
+    position: relative;
+    top: -0.5rem;
+}
+
+.gpay-card-info-container.black,
+.gpay-card-info-animation-container.black {
+    width: 27.4rem;
+}
+
+
+
+
+
+/*.searchItemsHold{
+    height: 20rem !important;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  PYAPAL  BUTTON */
+
+.paypal-button.paypal-button-color-gold,
+.paypal-button-row.paypal-button-color-gold .menu-button {
+    background-color: black !important;
+}
+
+.paypal-button.paypal-button-color-gold,
+.paypal-button-row.paypal-button-color-gold .menu-button {
+    background: black !important;
+}
+
+/*  YOU MAY ALSO LIKE AUTO SCROLLING    */
+
+
+.alsoLikeText {
+    top: 27rem;
+    left: 29.5rem;
+    font-size: 45px !important;
+}
+
+.cpf{
+    top: 39rem !important;
+}
+
+.boxImg {
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.faqParent {
+    top: 34rem;
+    right: -14rem;
+    width: 70vw;
+    position: relative !important;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.zi {
+    z-index: 9999999999;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.car-pic {
+    width: 100vw;
+    max-width: 100% !important;
+    object-fit: cover;
+}
+
+.slick-prev {
+    display: block !important;
+    left: 2rem !important;
+    top: 19rem !important;
+    z-index: 99999999;
+    width: 4rem !important;
+}
+
+.slick-next {
+    right: 3.5rem !important;
+    z-index: 9999999999999999 !important;
+    top: 19.7rem !important;
+
+}
+
+.slick-prev:before {
+    content: url("../src/assets/prevv.png") !important;
+}
+
+.slick-next:before {
+    content: url("../src/assets/nf.png") !important;
 }

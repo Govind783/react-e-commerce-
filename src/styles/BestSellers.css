@@ -1,0 +1,1078 @@
+.bestSellerMainParent {
+    display: flex !important;
+    flex-direction: row !important;
+    position: absolute;
+    top: 4.5rem;
+    gap: 2rem !important;
+    left: 4rem;
+}
+
+.bestSellerImage {
+
+    width: 17rem;
+    object-fit: cover;
+
+}
+
+
+/*   RESPONSIVE   */
+
+@media (max-width : 1300px) {
+
+    /*   HOME PAGE  */
+    .App {
+        overflow-x: hidden;
+        max-width: 100% !important;
+    }
+
+    html {
+        max-width: 100% !important;
+    }
+
+    body {
+        max-width: 100% !important;
+
+    }
+
+    .heroDescription {
+        left: 17rem !important;
+        max-width: 100% !important;
+    }
+
+    .heroPicHold {
+        left: 3.4rem !important;
+    }
+
+    .heroHeadingHold {
+        left: 9.5rem !important;
+        font-size: 17px !important;
+    }
+
+    .heroDescHold {
+        left: 9rem !important;
+        gap: 10rem !important;
+        width: 67rem !important;
+        max-width: 100% !important;
+    }
+
+    .zoom {
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .ourBestSellersMainParent {
+        right: -2rem !important;
+        margin-top: 0 !important;
+        margin-left: 0rem !important;
+        margin-right: 2rem !important;
+    }
+
+    .ingMainParent {
+        top: 9rem !important;
+    }
+
+    .ingImgHold {
+        left: 0rem !important;
+    }
+
+    .ingTextHold {
+        left: 0rem !important;
+    }
+
+    .jsLeft {
+        left: 7rem !important;
+    }
+
+    .jsRight {
+        left: -9rem !important;
+        position: relative;
+    }
+
+    .jsImg {
+        width: 18rem !important;
+    }
+
+    .jsRightText {
+        left: 32rem !important;
+        gap: 7rem !important;
+        font-size: 15px;
+    }
+
+
+    .igText {
+        font-size: 2.4rem !important;
+        left: 23rem !important;
+        top: -3rem !important;
+    }
+
+
+    /* NAVABAR   */
+
+    .dropdown-nav {
+        width: 61rem;
+        height: 27rem !important;
+        left: -9rem !important;
+    }
+
+    .bestSellerImage {
+        width: 12rem !important;
+    }
+
+    .dropdown-nav2 {
+        width: 64rem !important;
+        left: -25rem !important;
+    }
+
+    .giftHold {
+        left: 12rem !important;
+    }
+
+    .dropdown-nav3 {
+        width: 64rem !important;
+        left: -37.5rem !important;
+    }
+
+    .bodyTypeHold {
+        width: 47rem !important;
+    }
+
+    * {
+        box-sizing: border-box !important;
+    }
+
+
+    /*  single page  */
+
+    .sideImageHold {
+        width: 14rem !important;
+        left: 6rem !important;
+        top: -35rem !important;
+        max-width: 100% !important;
+    }
+
+    .singlePageMainPicHold {
+        top: -4rem !important;
+        left: 23rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .singlePageMainPic {
+        width: 27rem !important;
+        height: 31rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .bottomImgHold {
+        width: 16rem !important;
+        left: 6rem !important;
+        top: -33rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .namePriceSP {
+        left: 56rem !important;
+        top: -79rem !important;
+        max-width: 100% !important;
+    }
+
+    .sp {
+        left: 3rem !important;
+    }
+
+    .singleLinetop {
+        display: none !important;
+    }
+
+    .starHold {
+        top: -77rem !important;
+        left: 55.1rem !important;
+        max-width: 100% !important;
+    }
+
+    .loyalty {
+        left: 52rem !important;
+        top: -75rem !important;
+        max-width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .chakra-accordion {
+        top: -69rem !important;
+        max-width: 100% !important;
+        left: 52rem !important;
+
+    }
+
+    .spBtnHold {
+        top: -73rem !important;
+        left: 55rem !important;
+        max-width: 100% !important;
+    }
+
+
+
+    .singleMainParentSlider {
+        position: absolute !important;
+        top: 73rem !important;
+        max-width: 100vw !important;
+        height: 50vh !important;
+    }
+
+    .feelHold {
+        position: absolute;
+        width: 40vw;
+        height: 30vh;
+        top: 70rem !;
+        top: 98rem !important;
+    }
+
+    .filterRevHold {
+        position: absolute !important;
+        top: 104rem !important;
+
+    }
+
+    .popularKeyWordsText {
+        position: absolute;
+        top: 108rem !important;
+    }
+
+    .searchItemsHold {
+        position: absolute !important;
+        top: 157rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .keyWordHold {
+        position: absolute !important;
+        top: 114rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .revLine1 {
+        left: 1rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .footerFeatures2 {
+        left: 6rem !important;
+    }
+
+    .footerFeatures2TextHold {
+        left: 11rem !important;
+        gap: 10rem !important;
+        font-size: 15px;
+        max-width: 100% !important;
+
+    }
+
+    .ml {
+        margin-left: 1rem !important;
+    }
+
+
+    /*  JOURNAL  */
+
+    .journalPageMainParent {
+        left: -5rem !important;
+        max-width: 100% !important;
+        width: 100vw !important;
+    }
+
+    .paraHold {
+        max-width: 100% !important;
+    }
+
+    .jfHold {
+        left: 4rem !important;
+        max-width: 100% !important;
+    }
+
+    .footerFeatures3 {
+        left: 7rem !important;
+        gap: 16.7rem !important;
+    }
+
+    .widthHeight {
+        width: 3rem;
+        height: 3rem;
+
+    }
+
+    .footerFeatures3TextHold {
+        top: 111rem !important;
+        left: 11rem !important;
+        font-size: 12.5px !important;
+        gap: 12.5rem !important;
+    }
+
+
+    /* EM,PTY CART  */
+
+    .cg {
+        left: 25rem !important;
+    }
+
+
+    /*  CART     */
+
+    .urCartItem{
+        left: 9rem !important;
+    }
+
+    .topLine{
+        left: 10rem !important;
+    }
+
+    .cartProductsHold{
+        left: -10rem !important;
+    }
+
+    .cartTotalMainParent{
+        left: 46rem !important;
+        top: 14rem;
+    
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+.mobNavMainPrant {
+    display: none;
+}
+
+
+
+
+/*  MOBILE RESPONSIVE   */
+
+
+@media(max-width : 550px) {
+
+    /* HOME PAGE  */
+    * {
+        box-sizing: border-box;
+
+    }
+
+    .App{
+        overflow-x: hidden !important;
+    }
+
+
+
+    .banner {
+        display: none !important;
+
+    }
+
+    .mobNavMainPrant {
+        display: block !important;
+        max-width: 100% !important;
+
+    }
+
+    .navbar {
+        height: 5rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: 5rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .slick-prev {
+        left: -0.5rem !important;
+        position: absolute !important;
+
+    }
+
+    .slick-next {
+        position: absolute !important;
+        left: 20.4rem !important;
+        top: 5.2rem !important;
+    }
+
+    .welcomStore {
+        margin-top: 0 !important;
+        position: absolute;
+        top: 19rem !important;
+        font-size: 25px;
+        left: 2.5rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .heroDescription {
+        position: absolute !important;
+        top: 24rem !important;
+        left: 0rem !important;
+        font-size: 17px;
+        max-width: 100%;
+
+    }
+
+
+
+
+    .heroPicHold {
+        position: absolute;
+        top: 10rem !important;
+        display: flex;
+        flex-direction: column !important;
+        gap: 2rem !important;
+        left: 2rem !important;
+        max-width: 100% !important;
+    }
+
+    .heroHeadingHold {
+        display: flex;
+        flex-direction: column !important;
+        gap: 6rem !important;
+        top: -9.5rem !important;
+        left: 10rem !important;
+        font-size: 14px !important;
+        max-width: 100% !important;
+    }
+
+    .heroDescHold {
+        position: absolute;
+        top: 37rem !important;
+        display: flex;
+        flex-direction: column !important;
+        gap: 5rem !important;
+        font-size: 15px !important;
+        max-width: 100% !important;
+        left: 10rem !important;
+        width: 13rem !important;
+        text-align: left;
+    }
+
+
+
+    .ourBestSellersMainParent {
+        position: absolute;
+        top: 8rem !important;
+        max-width: 100% !important;
+        left: 0.4rem !important;
+        right: 0 !important;
+        justify-content: center !important;
+
+    }
+
+    .lh6 {
+        top: 57rem !important;
+        position: absolute;
+        font-size: 24px !important;
+        text-align: center !important;
+        left: 5rem !important;
+    }
+
+    .zoom {
+        width: 18rem !important;
+        height: 28rem !important;
+        max-width: 100% !important;
+        margin-right: 1.5rem !important;
+
+    }
+
+    .card-title {
+        font-size: 1.1rem !important;
+
+    }
+
+    .ingMainParent {
+        top: 15rem !important;
+        position: absolute;
+        max-width: 100% !important;
+
+    }
+
+    .ogtext {
+        font-size: 30px !important;
+        max-width: 100% !important;
+        max-width: 100% !important;
+
+    }
+
+    .ingImgHold {
+        display: flex;
+        flex-direction: column !important;
+        gap: 4rem !important;
+        left: 3rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .ingTextHold {
+        display: flex;
+        flex-direction: column !important;
+        gap: 6rem !important;
+        top: -41rem !important;
+        left: 12rem !important;
+        max-width: 100% !important;
+        text-transform: uppercase !important;
+        font-weight: 500 !important;
+        text-align: left;
+    }
+
+    .zoom2 {
+        width: 3.5rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .jsMainParent {
+        position: relative;
+        top: -33rem !important;
+        height: 45rem !important;
+        max-width: 100% !important;
+    }
+
+    .jsLeft {
+        max-width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        left: 2.5rem !important;
+        max-width: 100% !important;
+    }
+
+    .jsRight {
+        position: absolute !important;
+        left: -39.5rem !important;
+        display: flex !important;
+        flex-direction: row !important;
+        top: 35rem !important;
+        max-width: 100% !important;
+        gap: 1rem !important;
+
+    }
+
+    .jsImg {
+        width: 10rem !important;
+        object-fit: cover !important;
+        max-width: 100% !important;
+        height: 10rem !important;
+    }
+
+    .jsRightText {
+        position: absolute;
+        top: 36rem !important;
+        left: 2rem !important;
+        font-size: 14px !important;
+        max-width: 100% !important;
+        font-weight: normal !important;
+        gap: 1rem !important;
+    }
+
+    .igText {
+        position: absolute !important;
+        top: 577rem !important;
+        font-size: 25px !important;
+        white-space: nowrap;
+        left: 1.2rem !important;
+        max-width: 100% !important;
+    }
+
+    .fotBg {
+        position: absolute !important;
+        top: 614rem !important;
+    }
+
+    .alice-carousel {
+        position: absolute !important;
+        top: 584rem !important;
+        max-width: 100% !important;
+        left: 2rem !important;
+    }
+
+  
+
+
+
+    .readBtn {
+        left: 4rem !important;
+    }
+
+
+    ::-webkit-scrollbar {
+        display: none !important;
+    }
+
+
+
+
+
+    /* SINGLE PROD PAGE  */
+
+    .sinLih {
+        left: -12rem !important;
+        background-color: #f8f9fc !important;
+    }
+
+    .sideImageHold {
+        width: 6rem !important;
+        position: absolute !important;
+        top: 32rem !important;
+        max-width: 100% !important;
+        flex-direction: row;
+        gap: 1rem;
+        left: 1rem !important;
+    }
+
+    .bottomImgHold {
+        position: absolute !important;
+        width: 6rem !important;
+        top: 32rem !important;
+        max-width: 100% !important;
+        left: 16rem !important;
+
+    }
+
+    .singlePageMainPicHold {
+        position: absolute;
+        left: 0rem !important;
+        width: 17rem !important;
+        margin-left: 3rem !important;
+        margin-right: 2rem !important;
+
+    }
+
+    .singlePageMainPic {
+        width: 25rem !important;
+        height: 20rem !important;
+        max-width: 100% !important;
+
+    }
+
+    #mobileDontSHow {
+        display: none !important;
+
+    }
+
+    .namePriceSP {
+        display: flex !important;
+        width: 13.2rem !important;
+        position: absolute;
+        top: 17rem !important;
+        left: 3.5rem !important;
+        flex-direction: row;
+
+    }
+
+    .chakra-accordion {
+        top: 36rem !important;
+        left: 0.7rem !important;
+        width: 22rem !important;
+
+    }
+
+    .starHold {
+        top: 18rem !important;
+        left: 3.8rem !important;
+        position: relative !important;
+
+    }
+
+    .loyalty {
+        display: none !important;
+    }
+
+    .spBtnHold {
+        top: 20rem !important;
+        left: 5rem !important;
+        max-width: 100% !important;
+    }
+
+    .spCaroImg {
+        padding-right: 2.5rem;
+
+    }
+
+    .singleMainParentSlider {
+        height: 10rem !important;
+        top: 44rem !important;
+        left: 1.5rem !important;
+        position: relative !important;
+    }
+
+
+    .spText {
+        top: 40rem !important;
+        left: 0rem !important;
+        position: relative !important;
+        font-size: 26px;
+        max-width: 100% !important;
+
+    }
+
+    .revLine1 {
+
+        white-space: nowrap !important;
+        top: 110rem !important;
+
+    }
+
+    .filterRevHold {
+        top: 122rem !important;
+        left: 1rem !important;
+        max-width: 100% !important;
+    }
+
+    .frText {
+        font-size: 27px !important;
+    }
+
+    .searchBox {
+        width: 17rem !important;
+    }
+
+    .searchList {
+        top: -6rem !important;
+        left: 4.5rem !important;
+    }
+
+    .keyWordHold {
+        top: 133rem !important;
+        left: 1rem !important;
+        max-width: 100%;
+    }
+
+    .popularKeyWordsText {
+        display: none !important;
+
+    }
+
+    .starHold2 {
+        position: relative !important;
+        top: 51rem !important;
+        left: 0.5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
+    .feelHold {
+        display: none !important;
+    }
+
+    .feelImg {
+        display: none !important;
+    }
+
+    .jsParent {
+        width: 100vw !important;
+        height: 80vh !important;
+        top: 175rem !important;
+        position: relative !important;
+    }
+
+    .footerFeatures2 {
+
+        position: relative !important;
+        top: 155rem !important;
+        flex-direction: row;
+        gap: 9rem !important;
+        flex-wrap: wrap;
+        width: 17rem !important;
+        left: 3rem !important;
+
+    }
+
+    .sv {
+        width: 3.5rem !important;
+        height: 3.5rem !important;
+    }
+
+    .sv2 {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+
+    .footerFeatures2TextHold {
+        font-style: italic !important;
+        position: relative !important;
+        top: 144rem !important;
+        gap: 5rem !important;
+        left: 2rem !important;
+        width: 36rem !important;
+        flex-wrap: wrap !important;
+        font-size: 13px !important;
+        row-gap: 11rem !important;
+    }
+
+    .spfooterHold {
+        position: relative !important;
+        top: -462rem !important;
+    }
+
+
+
+    /*  CART    */
+
+    #fs {
+        font-size: 15px !important;
+        width: 21rem !important;
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    .cg {
+        width: 17rem !important;
+        left: 3rem !important;
+        display: block !important;
+        visibility: visible !important;
+    }
+
+
+    .urCartItem {
+        position: relative;
+        left: 2rem !important;
+        gap: 6rem !important;
+    }
+
+    .topLine {
+        left: 0rem !important;
+    }
+
+    .cartProductsHold {
+        left: -17rem !important;
+    }
+
+    .cartImaegHold {
+        width: 10rem !important;
+    }
+
+    .cartName {
+        top: -13.7rem;
+        font-size: 14px !important;
+        width: 8rem !important;
+        white-space: inherit;
+        text-align: center;
+
+    }
+
+    .cartPrice {
+        top: -12.5rem;
+        left: 33.5rem !important;
+    }
+
+    .qtyhChangehold {
+        top: -13.5rem;
+        max-width: 100% !important;
+        width: 9rem;
+        border-radius: 0;
+        left: 30.5rem;
+
+    }
+
+    .middleLine {
+        white-space: nowrap !important;
+    }
+
+    .mobHold {
+        position: relative !important;
+        left: 2rem !important;
+        top: 17rem !important;
+    }
+
+    .cartTotalMainParent {
+        position: relative !important;
+        left: 2rem !important;
+        top: 12rem !important;
+        width: 19rem !important;
+        max-width: 100% !important;
+
+    }
+
+    .mobDisappear {
+        display: none !important;
+    }
+
+    .mobTextSize {
+        font-size: 17px !important;
+    }
+
+    .gap6rem {
+        gap: 3.2rem !important;
+    }
+
+    .mobTextSize2 {
+        font-size: 13px !important;
+    }
+
+    .calcHold {
+        left: 12rem;
+    }
+
+    .totLine {
+        white-space: nowrap !important;
+        left: -2rem !important;
+
+    }
+
+    .ctActualToatal {
+        font-size: 19px;
+        left: 6rem !important;
+    }
+
+    .totLine2 {
+        white-space: nowrap !important;
+        left: -2rem !important;
+    }
+
+    .gpay-card-info-container.black,
+    .gpay-card-info-animation-container.black {
+        max-width: 100% !important;
+        width: 18rem !important;
+    }
+
+    .alsoLikeText {
+        margin-left: 3rem !important;
+        margin-right: 2rem !important;
+        left: 1rem !important;
+        top: 18rem !important;
+        font-size: 25px !important;
+    }
+
+    .youMay {
+        top: 20rem !important;
+        left: 1rem !important;
+    }
+
+    .brForMobile {
+        border-radius: 5px !important;
+    }
+
+    .faqParent {
+        top: 25rem !important;
+        left: 1.4rem !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+
+    .styles_faq-row-wrapper__3vA1D h2 {
+        font-size: 20px !important;
+    }
+
+    .cpf {
+        top: -580rem !important;
+    }
+
+
+
+    /*  jortnal page */
+
+    .journalPageMainParent {
+        position: absolute !important;
+        top: 13rem !important;
+        max-width: 100vw !important;
+        left: -30rem !important;
+
+
+    }
+
+    .sjText {
+        width: 19rem !important;
+        position: absolute;
+        top: -5rem;
+        text-align: center;
+        left: 32rem !important;
+    }
+
+    .paraHold {
+        width: 20rem !important;
+        text-align: center;
+        left: 31.5rem !important;
+        top: 3rem !important;
+        max-width: 100% !important;
+        margin-right: 4rem !important;
+    }
+
+    .aprilBlogHeading {
+        text-align: center !important;
+        left: 30rem !important;
+        width: 24rem !important;
+        font-size: 27px;
+        max-width: 100% !important;
+    }
+
+    .hairImgHold {
+        left: 30.8rem !important;
+        max-width: 100% !important;
+        width: 21rem;
+        height: 30rem !important;
+    }
+
+    .hairImg {
+        width: 21rem !important;
+        height: 22rem !important;
+        border-radius: 12px;
+        max-width: 100% !important;
+    }
+
+    .jhold {
+        left: 31.2rem !important;
+        top: 45rem !important;
+        max-width: 90% !important;
+        text-align: center !important;
+
+    }
+
+
+    .footerFeatures3 {
+        display: none !important;
+
+    }
+
+    .footerFeatures3TextHold {
+        display: none !important;
+    }
+
+    .jfHold {
+        height: 100vh !important;
+        width: 103vw !important;
+        max-width: 100vw !important;
+        position: relative;
+        top: -495rem !important;
+        left: 28rem !important;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+.spAddTOCart {
+    transition: all ease 300ms;
+}
+
+.spAddTOCart:hover {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black;
+}
