@@ -1,13 +1,13 @@
 
 An 8 page e-commerce website with the 
-home page 
-product detail page
-cart and checkout page
-under 20 page
-under 40 page
-for him page
-for her page
-journal page.
+home page,
+product detail page, 
+cart and checkout page, 
+under 20 page,  
+under 40 page, 
+for him page, 
+for her page, 
+journal page. 
 
 with great UI UX built using react with google pay, visa, mastercard and paypal integration.
 tech stack used = react, javascript and scss.
