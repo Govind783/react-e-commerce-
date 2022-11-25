@@ -1,3 +1,7 @@
+
+a modern e-commerce website with great UI UX built using react with google pay and paypal integration.
+tech stack used = react, tailwind, javascript and scss. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
