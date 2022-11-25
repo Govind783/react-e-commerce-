@@ -1,6 +1,17 @@
 
-a modern e-commerce website with great UI UX built using react with google pay and paypal integration.
-tech stack used = react, tailwind, javascript and scss. 
+A modern e-commerce website with great UI UX built using react with google pay and paypal integration.
+tech stack used = react, javascript and scss.
+
+An 8 page website with the 
+home page 
+product detail page
+cart and checkout page
+under 20 page
+under 40 page
+for him page
+for her page
+journal page
+
 
 # Getting Started with Create React App
 
