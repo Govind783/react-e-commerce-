@@ -514,37 +514,6 @@ const SearchBox = () => {
         <p className='keyWord hover:bg-slate-200' onClick={glowClickHandler}> Glow </p>
         <p className='keyWord hover:bg-slate-200' onClick={boostClickHnadler}> Boost </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
 
     </div>
@@ -552,40 +521,3 @@ const SearchBox = () => {
 }
 
 export default SearchBox;
-
-/*
-
-      <div className='flex flex-col gap-7 filterRevHold relative'>
-        <p className='frText text-3xl relative fof'> Filter Reviews </p>
-
-        <input type="text" placeholder="Search" className='bg-black fof searchBox relative text-gray-400' onChange={e => setSearch(e.target.value)} />
-      </div>
-
-
-      <div className='searchItemsHold'>{names.filter(val => {
-        if (search === "") {
-          return val;
-        }
-        else if (val.type.toLowerCase().includes(search.toLowerCase())) {
-          return val;
-        }
-      }).slice(0,5).map(i => {
-        return (<div key={i.id} className="searchList relative">
-          <p className='font-semibold text-md mb-1 capitalize'> {i.name}</p>
-          <p className='text-md mb-1'>  {i.stars === 4 ? <div className='flex'> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />  </div> : <div className='flex'> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />  </div>} </p>
-          <p className=' text-gray-500 font-semibold mb-1 capitalize'> {i.heading} </p>
-
-
-
-          <p className='text-m fof mb-1 w50rem capitalize '> {i.description} </p>
-
-
-          <p className='firstLetterHold rounded-full text-center pt-1 relative mb-1 capitalize'> {i.name.charAt(0)} </p>
-
-
-
-        </div>
-        )
-      })} </div>
-
-      */
