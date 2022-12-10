@@ -323,22 +323,22 @@
 
     /*  CART     */
 
-    .urCartItem{
+    .urCartItem {
         left: 9rem !important;
     }
 
-    .topLine{
+    .topLine {
         left: 10rem !important;
     }
 
-    .cartProductsHold{
+    .cartProductsHold {
         left: -10rem !important;
     }
 
-    .cartTotalMainParent{
+    .cartTotalMainParent {
         left: 46rem !important;
         top: 14rem;
-    
+
     }
 
 
@@ -357,6 +357,14 @@
     display: none;
 }
 
+.blackBg {
+    background-color: black !important;
+    color: white !important;
+}
+
+.highlightWord{
+    background-color: gold !important;
+}
 
 
 
@@ -371,10 +379,9 @@
 
     }
 
-    .App{
+    .App {
         overflow-x: hidden !important;
     }
-
 
 
     .banner {
@@ -606,7 +613,7 @@
         left: 2rem !important;
     }
 
-  
+
 
 
 

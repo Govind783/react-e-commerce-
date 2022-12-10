@@ -4,7 +4,8 @@ import "../styles/SearchBox.css"
 import { AiOutlineSearch } from "react-icons/ai";
 import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react'
 import { AiFillStar } from "react-icons/ai"
-import ShowMoreText from "react-show-more-text";
+import Highlighter from "react-highlight-words";
+
 
 
 const SearchBox = () => {
@@ -12,7 +13,7 @@ const SearchBox = () => {
 
   const smellClick = "smell";
   const skinClick = "skin";
-  const fragClick = "fragnance"
+  const fragClick = "fragrance"
   const tonerClick = "toner";
   const hydrClick = "hydrating";
   const faceClick = "face";
@@ -61,6 +62,8 @@ const SearchBox = () => {
   const executeOnClick = (isExpanded) => {
     console.log(isExpanded);
   }
+
+
 
 
 
@@ -480,20 +483,19 @@ const SearchBox = () => {
         else if (val.description.toLowerCase().includes(search.toLowerCase())) {
           return val;
         }
-      }).slice(0,6).map(i => {
+      }).slice(0, 6).map(i => {
         return (<div key={i.id} className="searchList relative">
           <p className='font-semibold text-md mb-1 capitalize'> {i.name}</p>
           <p className='text-md mb-1'>  {i.stars === 4 ? <div className='flex'> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />  </div> : <div className='flex'> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />  </div>} </p>
           <p className=' text-gray-500 font-semibold mb-1 capitalize'> {i.heading} </p>
-
-
-
-          <p className='text-m fof mb-1 w50rem capitalize '> {i.description} </p>
-
-
+          <Highlighter
+            className='fof mb-1 w50rem capitalize mobdesc'
+            highlightClassName="YourHighlightClass highlightWord"
+            searchWords={[search]}
+            autoEscape={true}
+            textToHighlight={i.description}
+          > {i.description} </Highlighter>
           <p className='firstLetterHold rounded-full text-center pt-1 relative mb-1 capitalize'> {i.name.charAt(0)} </p>
-
-
 
         </div>
         )
@@ -521,3 +523,5 @@ const SearchBox = () => {
 }
 
 export default SearchBox;
+
+//   .substring(0 , 32)) + "\n" + (i.description.substring(33  , 60)) + "\n" + (i.description.substring(34 , 64))
