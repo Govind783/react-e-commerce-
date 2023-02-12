@@ -5,6 +5,8 @@ import { useDispatch } from 'react-redux'
 import { cartActions } from '../redux-state/CartState'
 
 import { Link } from 'react-router-dom'
+import { useToast } from '@chakra-ui/react'
+
 
 const OurBestSellers = (props) => {
 
@@ -23,6 +25,9 @@ const OurBestSellers = (props) => {
             })
         )
     }
+
+    const toast = useToast();
+
 
 
 
@@ -43,7 +48,15 @@ const OurBestSellers = (props) => {
                         <h2 className=" text-xl mb-2 fof">${price}</h2>
 
 
-                        <div className="card-actions">
+                        <div className="card-actions" onClick={() =>
+                            toast({
+                                title: '',
+                                description: "Successfully Added",
+                                status: 'success',
+                                duration: 1500,
+                                isClosable: true,
+                            })
+                        }>
                             <button className="btn btn-primary" onClick={addItemToCartHandler}>Buy Now</button>
                         </div>
 
@@ -52,7 +65,7 @@ const OurBestSellers = (props) => {
                 </div>
 
             </div>
-            
+
 
 
         </div>

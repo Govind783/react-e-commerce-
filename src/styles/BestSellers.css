@@ -7,6 +7,10 @@
     left: 4rem;
 }
 
+.emptyCartMainParent{
+    height: 100rem;
+}
+
 .bestSellerImage {
 
     width: 17rem;
@@ -846,7 +850,6 @@ html{
 
     #fs {
         font-size: 15px !important;
-        width: 21rem !important;
         display: block !important;
         visibility: visible !important;
     }
