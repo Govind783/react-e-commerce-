@@ -7,7 +7,6 @@ import { AiFillStar } from "react-icons/ai"
 import Highlighter from "react-highlight-words";
 
 
-
 const SearchBox = () => {
   const [search, setSearch] = useState("smell");
 
@@ -62,6 +61,7 @@ const SearchBox = () => {
   const executeOnClick = (isExpanded) => {
     console.log(isExpanded);
   }
+
 
 
 
@@ -472,7 +472,7 @@ const SearchBox = () => {
       <div className='flex flex-col gap-7 filterRevHold relative'>
         <p className='frText text-3xl relative fof'> Filter Reviews </p>
 
-        <input type="text" placeholder="Search" className='bg-black fof searchBox relative text-gray-400' onChange={e => setSearch(e.target.value)} />
+        <input type="text" placeholder="Search" className='bg-black fof searchBox relative text-gray-400 pl-3' onChange={e => setSearch(e.target.value)} />
       </div>
 
 
@@ -488,13 +488,15 @@ const SearchBox = () => {
           <p className='font-semibold text-md mb-1 capitalize'> {i.name}</p>
           <p className='text-md mb-1'>  {i.stars === 4 ? <div className='flex'> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />  </div> : <div className='flex'> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />  </div>} </p>
           <p className=' text-gray-500 font-semibold mb-1 capitalize'> {i.heading} </p>
-          <Highlighter
-            className='fof mb-1 w50rem capitalize mobdesc'
-            highlightClassName="YourHighlightClass highlightWord"
-            searchWords={[search]}
-            autoEscape={true}
-            textToHighlight={i.description}
-          > {i.description} </Highlighter>
+            <Highlighter
+              className='fof mb-1 w50rem capitalize mobdesc'
+              highlightClassName="YourHighlightClass highlightWord"
+              searchWords={[search]}
+              autoEscape={true}
+              textToHighlight={i.description}
+            > {i.description}
+            </Highlighter>
+
           <p className='firstLetterHold rounded-full text-center pt-1 relative mb-1 capitalize'> {i.name.charAt(0)} </p>
 
         </div>

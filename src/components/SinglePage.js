@@ -21,6 +21,8 @@ import { FaLock } from "react-icons/fa";
 import { BsCurrencyDollar } from "react-icons/bs";
 import SPFooter from './SPFooter';
 import {GiCardboardBoxClosed} from "react-icons/gi";
+import { useToast } from '@chakra-ui/react'
+
 
 const SinglePage = () => {
 
@@ -76,13 +78,12 @@ const SinglePage = () => {
   }
 
 
-
-
   let numOfRev = Math.floor(Math.random() * (4 - 4 + 1)) + 4;
   let reviews = Math.floor(Math.random() * (999 - 100 + 1) + 100);
 
 
-
+    const toast = useToast()
+  
   return (
     <div className='singlePageMainParent relative top-36'>
 
@@ -133,7 +134,15 @@ const SinglePage = () => {
 
       <p className='font-semibold text-md relative loyalty'> YOU CAN EARN 50 LOAYLTY POINTS </p>
 
-      <div className='spBtnHold relative'>
+      <div className='spBtnHold relative' onClick={() =>
+        toast({
+          title: '',
+          description: "Successfully Added",
+          status: 'success',
+          duration: 1500,
+          isClosable: true,
+        })
+      }>
         <button className='spAddTOCart' onClick={addItemToCartHandler}> ADD TO CART </button>
       </div>
 

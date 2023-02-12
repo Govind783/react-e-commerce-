@@ -14,6 +14,10 @@
 
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 
 /*   RESPONSIVE   */
 
@@ -366,6 +370,10 @@
     background-color: gold !important;
 }
 
+
+html{
+    overflow-x: hidden !important;
+}
 
 
 /*  MOBILE RESPONSIVE   */
@@ -862,7 +870,7 @@
     }
 
     .cartProductsHold {
-        left: -17rem !important;
+        left: -18rem !important;
     }
 
     .cartImaegHold {
