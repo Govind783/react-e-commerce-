@@ -70,3 +70,11 @@
     top: 120rem;
 }
 
+
+.journalPageMainParent-1{
+    width: 100rem;
+    height: 100rem;
+    z-index: 9999;
+    position: relative;
+    top: -6rem;
+}

@@ -1046,13 +1046,15 @@ html{
         height: 22rem !important;
         border-radius: 12px;
         max-width: 100% !important;
+        margin-left: 0.5rem;
+
     }
 
     .jhold {
         left: 31.2rem !important;
         top: 45rem !important;
         max-width: 90% !important;
-        text-align: center !important;
+        text-align: left !important;
 
     }
 
@@ -1068,15 +1070,13 @@ html{
 
     .jfHold {
         height: 100vh !important;
-        width: 103vw !important;
-        max-width: 100vw !important;
+        width: 59rem !important;
+        max-width: 100rem !important;
         position: relative;
         top: -495rem !important;
-        left: 28rem !important;
+        left: 29rem !important;
 
     }
-
-
 
 }
 

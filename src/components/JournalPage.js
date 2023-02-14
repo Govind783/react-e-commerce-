@@ -8,7 +8,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 import JournalPageFooter from './JournalPageFooter';
 
 const JournalPage = () => {
-  return (
+  return (<div className='journalPageMainParent-1'>
     <div className='journalPageMainParent'>
       <p className='sjText'> THE SUKIN JOURNAL </p>
 
@@ -80,6 +80,7 @@ const JournalPage = () => {
 
 
     </div>
+  </div>
   )
 }
 
