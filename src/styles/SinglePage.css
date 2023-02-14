@@ -162,3 +162,16 @@
     margin-right: auto;
     width: 14rem !important;
 }
+
+@media(max-width:620px){
+    
+    .followOnInstaMarqueeConatiner{
+        top: -33rem;
+        position: relative;
+
+    }
+
+    .overlay{
+        --gradient-color: transparent !important;
+    }
+}

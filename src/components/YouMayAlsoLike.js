@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { store } from "../productsStore/Store";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
+
 
 export default class AutoPlayMethods extends Component {
     constructor(props) {
@@ -41,17 +43,17 @@ export default class AutoPlayMethods extends Component {
         };
         return (
             <div className="youMay">
-                <Slider ref={slider => (this.slider = slider)} {...settings}>
+                <Marquee pauseOnHover={true} speed={100} >
                     {store.map((item) => {
                         if (item.type == "ourBestSellers") {
                             return (<div key={item.id}>
                                 <Link to={`/${item.id}`}>
-                                    <img src={item.primaryImage} className=" w-48 spCaroImg brForMobile rounded-xl  mb-8" />
+                                    <img src={item.primaryImage} className=" w-48 spCaroImg brForMobile rounded-xl pl-4 pr-4  mb-8" />
                                 </Link>
                             </div>)
                         }
                     })}
-                </Slider>
+                </Marquee>
 
             </div>
         );

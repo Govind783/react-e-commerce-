@@ -22,6 +22,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 import SPFooter from './SPFooter';
 import {GiCardboardBoxClosed} from "react-icons/gi";
 import { useToast } from '@chakra-ui/react'
+import Marquee from "react-fast-marquee";
 
 
 const SinglePage = () => {

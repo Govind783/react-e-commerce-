@@ -15,6 +15,7 @@ import i9 from "../assets/i9.jpg";
 import i10 from "../assets/i10.jpg";
 import i11 from "../assets/i11.jpg";
 import { ExternalLink } from 'react-external-link';
+import Marquee from "react-fast-marquee";
 
 
 const FollowONIG = () => {
@@ -41,55 +42,56 @@ const FollowONIG = () => {
     <div className=' flex flex-row gap-28  mt-44 flex-wrap mb-36'>
       <p className='igText '> FOLLOW US ON INSTAGRAM </p>
 
-      <AliceCarousel autoPlay={true} infinite={true} responsive={responsive} autoPlayInterval={1000} disableButtonsControls={true} disableDotsControls={true} >
+      <div className='followOnInstaMarqueeConatiner'>
 
-        <ExternalLink href='https://www.instagram.com/reel/Ck6akcopA_F/' >
-          <img src={i1} className=' w-60 rounded-2xl   mrMl carouselIMg' />
-        </ExternalLink>
+        <Marquee pauseOnHover={true} speed={100} >
 
-        <ExternalLink href='https://www.instagram.com/reel/Ck9DOsWLEdw/'>
-        <img src={i2} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/Ck6akcopA_F/' >
+            <img src={i1} className=' w-60 rounded-2xl   mrMl carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/Ck_u9AjOJFh/'>
-        <img src={i3} className=' w-60 rounded-2xl   mrMl carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/Ck9DOsWLEdw/'>
+            <img src={i2} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/CkgnyuWu_u7/'>
-        <img src={i4} className=' w-60 rounded-2xl   mrMl carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/Ck_u9AjOJFh/'>
+            <img src={i3} className=' w-60 rounded-2xl   mrMl carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/p/CkeOeuMvliW/'>
-        <img src={i5} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/CkgnyuWu_u7/'>
+            <img src={i4} className=' w-60 rounded-2xl   mrMl carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/CkgnyuWu_u7/'>
-        <img src={i6} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/p/CkeOeuMvliW/'>
+            <img src={i5} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/Ckg4wazO9SQ/'>
-        <img src={i7} className=' w-60 rounded-2xl   mrMl carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/CkgnyuWu_u7/'>
+            <img src={i6} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/CkjTteAMPaZ/'>
-        <img src={i8} className=' w-60 rounded-2xl   mrMl carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/Ckg4wazO9SQ/'>
+            <img src={i7} className=' w-60 rounded-2xl   mrMl carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/CklzQFcJW9a/'>
-        <img src={i9} className=' w-60 rounded-2xl  mrMl carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/CkjTteAMPaZ/'>
+            <img src={i8} className=' w-60 rounded-2xl   mrMl carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/CkwQD6KO1WP/'>
-        <img src={i10} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/CklzQFcJW9a/'>
+            <img src={i9} className=' w-60 rounded-2xl  mrMl carouselIMg' />
+          </ExternalLink>
 
-        <ExternalLink href='https://www.instagram.com/reel/Ckg4wazO9SQ/'>
-        <img src={i11} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
-        </ExternalLink>
+          <ExternalLink href='https://www.instagram.com/reel/CkwQD6KO1WP/'>
+            <img src={i10} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
+          </ExternalLink>
 
+          <ExternalLink href='https://www.instagram.com/reel/Ckg4wazO9SQ/'>
+            <img src={i11} className=' w-60 rounded-2xl  mrMl  carouselIMg' />
+          </ExternalLink>
 
-
-      </AliceCarousel >
+        </Marquee>
+      </div>
 
     </div>
 
