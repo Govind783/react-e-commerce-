@@ -101,29 +101,3 @@ const FollowONIG = () => {
 }
 
 export default FollowONIG
-/*
-
-
-      <AliceCarousel
-        mouseTracking
-        infinite
-        autoPlayInterval={2000}
-        animationDuration={1500}
-        disableButtonsControls
-        disableDotsControls
-        autoPlay
-      >
-      */
-
-/*
-
-
-
-        */
-
-/*
-
-
-
-
-*/
