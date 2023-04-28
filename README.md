@@ -13,6 +13,9 @@ with great UI UX built using react with the product detail page having a search 
 the under 20 and under 40 page having filtering options to filter out products based upon category of products i.e body-lotion, body-wash and body-scurb.
 tech stack used = react, javascript, scss and css.
 
+DO STAR THE REPO 🌟
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
